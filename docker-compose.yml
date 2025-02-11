@@ -1,11 +1,6 @@
 services:
   crawl4ai:
     image: unclecode/crawl4ai:${VERSION:-basic}-arm64
-    profiles: ["hub-arm64"]
-    extends: *base-config
-
-  # Base configuration to be extended
-  base-config:
     ports:
       - "11235:11235"
       - "8025:8000"
