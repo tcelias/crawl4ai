@@ -5,7 +5,7 @@ import sys
 from typing import Optional, Union, List
 
 class Crawl4AiTester:
-    def __init__(self, base_url: str = "http://qkgs0swg8c8kgosswscoccos.37.27.16.239.sslip.io:11235", api_token: str = "gM0pUpiX/MRCuo31u5spxXPgWtJ/h+KZxTCTsmvsD0jlUZFX"): #Change the url to match your URL
+    def __init__(self, base_url: str = "http://[url]", api_token: str = "[token]"): #Change the url to match your URL
         self.base_url = base_url
         self.headers = {"Authorization": f"Bearer {api_token}"}
 
